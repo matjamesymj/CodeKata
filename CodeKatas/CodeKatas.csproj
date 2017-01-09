@@ -42,6 +42,13 @@
   <ItemGroup>
     <Compile Include="Pailindrome\Palindrome.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserInput\NumericInput.cs" />
+    <Compile Include="UserInput\TextInput.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Pailindrome\_README.txt" />
+    <Content Include="UserInput\_README.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
