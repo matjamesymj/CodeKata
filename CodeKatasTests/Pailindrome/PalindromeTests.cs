@@ -1,7 +1,7 @@
-﻿using CodeKatas;
+﻿using CodeKatas.Pailindrome;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace CodeKatasTests
+namespace CodeKatasTests.Pailindrome
 {
     [TestClass()]
     public class PalindromeTests
