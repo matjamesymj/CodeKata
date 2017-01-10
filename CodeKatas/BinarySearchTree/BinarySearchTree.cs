@@ -14,7 +14,7 @@ namespace CodeKatas.BinarySearchTree
             //and is smaller than the values in all the nodes in that node's right subtree.
 
 
-
+            return true;
 
         }
 

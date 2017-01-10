@@ -53,6 +53,7 @@
   <ItemGroup>
     <Compile Include="Pailindrome\PalindromeTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="String Calculator\StringCalculatorTests.cs" />
     <Compile Include="TwoSum\TwoSumTests.cs" />
     <Compile Include="UserInput\UserInputTests.cs" />
   </ItemGroup>
