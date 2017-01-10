@@ -17,16 +17,17 @@ namespace CodeKatas.String_Calculator
             }
             else
             {
-                char delimeter = ',';
+                string[] delimeters = new string[] { ",",";","***" };
+               
 
                 if (numbers.StartsWith("//"))
                 {
-                    delimeter = ';';
+                    
                    numbers = numbers.Substring(4);
                 }
 
                 var sum = 0;
-               var values = numbers.Replace("\n", delimeter.ToString()).Split(delimeter);
+               var values = numbers.Replace("\n", ",").Split(delimeters,StringSplitOptions.None);
                 foreach (var number in values)
                 {
                     var intNumber = int.Parse(number);

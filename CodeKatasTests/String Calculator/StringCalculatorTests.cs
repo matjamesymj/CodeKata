@@ -59,5 +59,19 @@ namespace CodeKatasTests.String_Calculator
             var stringCalculator = new StringCalculator();
             Assert.AreEqual(2, stringCalculator.Add("1001,2"));
         }
+
+        [TestMethod()]
+        public void AddTestWhenSeperatorIs3Asterisks()
+        {
+            var stringCalculator = new StringCalculator();
+            Assert.AreEqual(6, stringCalculator.Add("1***2***3"));
+        }
+
+        [TestMethod()]
+        public void AddTestWhenSeperatorIs3DifferentTypes()
+        {
+            var stringCalculator = new StringCalculator();
+            Assert.AreEqual(10, stringCalculator.Add("1,2;3***4"));
+        }
     }
 }
