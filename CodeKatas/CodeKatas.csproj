@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="BinarySearchTree\BinarySearchTree.cs" />
     <Compile Include="BinarySearchTree\Node.cs" />
+    <Compile Include="OddEven\OddEven.cs" />
     <Compile Include="Pailindrome\Palindrome.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="String Calculator\IConsole.cs" />
@@ -53,6 +54,7 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="BinarySearchTree\_README.txt" />
+    <Content Include="OddEven\_README.txt" />
     <Content Include="Pailindrome\_README.txt" />
     <Content Include="String Calculator\_README.txt" />
     <Content Include="TwoSum\_README.txt" />
