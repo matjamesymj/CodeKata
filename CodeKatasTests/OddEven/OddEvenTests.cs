@@ -6,7 +6,7 @@ namespace CodeKatasTests.OddEven
     public class OddEvenTests
     {
         [TestMethod()]
-        public void PrintTest1to11()
+        public void PrintTest1To11()
         {
             var oddEven = new CodeKatas.OddEven.OddEven();
 
@@ -17,7 +17,7 @@ namespace CodeKatasTests.OddEven
         }
 
         [TestMethod()]
-        public void PrintTest11to1()
+        public void PrintTest11To1()
         {
             var oddEven = new CodeKatas.OddEven.OddEven();
 
