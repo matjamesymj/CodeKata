@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="BinarySearchTree\BinarySearchTree.cs" />
     <Compile Include="BinarySearchTree\Node.cs" />
+    <Compile Include="BowlingGame\Game.cs" />
     <Compile Include="OddEven\OddEven.cs" />
     <Compile Include="Pailindrome\Palindrome.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

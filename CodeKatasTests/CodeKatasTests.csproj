@@ -59,6 +59,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="BowlingGame\BowlingGameTests.cs" />
     <Compile Include="OddEven\OddEvenTests.cs" />
     <Compile Include="Pailindrome\PalindromeTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
