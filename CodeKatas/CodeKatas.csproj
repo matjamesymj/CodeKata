@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="100Doors\HundreadDoors.cs" />
     <Compile Include="BinarySearchTree\BinarySearchTree.cs" />
     <Compile Include="BinarySearchTree\Node.cs" />
     <Compile Include="BowlingGame\Game.cs" />
@@ -55,6 +56,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="100Doors\_README.txt" />
     <Content Include="BinarySearchTree\_README.txt" />
     <Content Include="BowlingGame\_README.txt" />
     <Content Include="OddEven\_README.txt" />
