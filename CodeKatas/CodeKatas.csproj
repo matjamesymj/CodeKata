@@ -44,6 +44,7 @@
     <Compile Include="BinarySearchTree\BinarySearchTree.cs" />
     <Compile Include="BinarySearchTree\Node.cs" />
     <Compile Include="BowlingGame\Game.cs" />
+    <Compile Include="Factorial\FactorialCalcualator.cs" />
     <Compile Include="OddEven\OddEven.cs" />
     <Compile Include="Pailindrome\Palindrome.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -59,6 +60,7 @@
     <Content Include="100Doors\_README.txt" />
     <Content Include="BinarySearchTree\_README.txt" />
     <Content Include="BowlingGame\_README.txt" />
+    <Content Include="Factorial\_README.txt" />
     <Content Include="OddEven\_README.txt" />
     <Content Include="Pailindrome\_README.txt" />
     <Content Include="String Calculator\_README.txt" />

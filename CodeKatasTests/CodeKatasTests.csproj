@@ -61,6 +61,7 @@
   <ItemGroup>
     <Compile Include="100Doors\HundreadDoorsTests.cs" />
     <Compile Include="BowlingGame\BowlingGameTests.cs" />
+    <Compile Include="Factorial\FactorialTests.cs" />
     <Compile Include="OddEven\OddEvenTests.cs" />
     <Compile Include="Pailindrome\PalindromeTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
