@@ -20,7 +20,6 @@ namespace CodeKatas.RomanNumerals
                 remainingResult = AppendRomanNumerals(remainingResult, values[i], symbols[i], stringBuilder);
             }
 
-
             return stringBuilder.ToString();
         }
 
