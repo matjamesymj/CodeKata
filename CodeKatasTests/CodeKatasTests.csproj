@@ -65,6 +65,7 @@
     <Compile Include="OddEven\OddEvenTests.cs" />
     <Compile Include="Pailindrome\PalindromeTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RomanNumerals\RomanNumeralsTests.cs" />
     <Compile Include="String Calculator\StringCalculatorTests.cs" />
     <Compile Include="TennisKata\TennisGameTests.cs" />
     <Compile Include="TwoSum\TwoSumTests.cs" />
