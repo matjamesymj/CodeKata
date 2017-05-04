@@ -68,6 +68,7 @@
     <Compile Include="RomanNumerals\RomanNumeralsTests.cs" />
     <Compile Include="String Calculator\StringCalculatorTests.cs" />
     <Compile Include="StringCMajor\CMajorTests.cs" />
+    <Compile Include="StringSexOfSingers\SingerSexHelperTests.cs" />
     <Compile Include="TennisKata\TennisGameTests.cs" />
     <Compile Include="TwoSum\TwoSumTests.cs" />
     <Compile Include="UserInput\UserInputTests.cs" />
