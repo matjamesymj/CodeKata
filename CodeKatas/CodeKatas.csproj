@@ -51,6 +51,7 @@
     <Compile Include="RomanNumerals\RomanNumeralsUtils.cs" />
     <Compile Include="String Calculator\IConsole.cs" />
     <Compile Include="String Calculator\StringCalculator.cs" />
+    <Compile Include="StringArrayMusical\MusicalInstruments.cs" />
     <Compile Include="StringCMajor\CMajor.cs" />
     <Compile Include="StringSexOfSingers\Sex.cs" />
     <Compile Include="StringSexOfSingers\SingerSexHelper.cs" />
@@ -69,6 +70,7 @@
     <Content Include="Pailindrome\_README.txt" />
     <Content Include="RomanNumerals\_README.txt" />
     <Content Include="String Calculator\_README.txt" />
+    <Content Include="StringArrayMusical\_README.txt" />
     <Content Include="StringCMajor\_README.txt" />
     <Content Include="StringSexOfSingers\_README.txt" />
     <Content Include="TennisKata\_README.txt" />
