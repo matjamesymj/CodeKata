@@ -1,0 +1,1 @@
+﻿Write a program to count how many numbers between 1 and 1000 are divisible by 3 with no remainder. Display the answer in a message box for VB NET, C#, and Java
