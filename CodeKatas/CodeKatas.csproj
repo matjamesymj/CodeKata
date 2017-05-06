@@ -45,6 +45,7 @@
     <Compile Include="BinarySearchTree\Node.cs" />
     <Compile Include="BowlingGame\Game.cs" />
     <Compile Include="Factorial\FactorialCalcualator.cs" />
+    <Compile Include="Numbers\DartboardDartScore.cs" />
     <Compile Include="Numbers\DivisibleBy3.cs" />
     <Compile Include="OddEven\OddEven.cs" />
     <Compile Include="Pailindrome\Palindrome.cs" />

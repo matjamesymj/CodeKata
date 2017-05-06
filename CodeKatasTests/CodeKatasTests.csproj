@@ -62,6 +62,7 @@
     <Compile Include="100Doors\HundreadDoorsTests.cs" />
     <Compile Include="BowlingGame\BowlingGameTests.cs" />
     <Compile Include="Factorial\FactorialTests.cs" />
+    <Compile Include="Numbers\DartboardDartScoreTests.cs" />
     <Compile Include="Numbers\DivisibleBy3Tests.cs" />
     <Compile Include="OddEven\OddEvenTests.cs" />
     <Compile Include="Pailindrome\PalindromeTests.cs" />
