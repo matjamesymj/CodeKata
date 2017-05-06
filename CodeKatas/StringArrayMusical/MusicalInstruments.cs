@@ -14,7 +14,7 @@ namespace CodeKatas.StringArrayMusical
             var musicalInstrumentsWithoutVowels = new List<string>();
             foreach (var musicalInstrument in musicalInstruments)
             {
-                var musicalInstrumentWithoutVowels = musicalInstrument.Replace("A", "").Replace("E","").Replace("I","").Replace("O","").Replace("U","");
+                var musicalInstrumentWithoutVowels = musicalInstrument.ToLower().Replace("a", "").Replace("e","").Replace("i","").Replace("o","").Replace("u","");
                 musicalInstrumentsWithoutVowels.Add(musicalInstrumentWithoutVowels);
 
             }

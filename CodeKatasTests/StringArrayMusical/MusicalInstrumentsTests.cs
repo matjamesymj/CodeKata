@@ -12,7 +12,7 @@ namespace CodeKatasTests.StringArrayMusical
         {
             var musicalIntruments = new MusicalInstruments();
             var musicalInstrumentsArray = new string[4];
-            musicalInstrumentsArray[0] = "cello";
+            musicalInstrumentsArray[0] = "CELLO";
             musicalInstrumentsArray[1] = "guitar";
             musicalInstrumentsArray[2] = "violin";
             musicalInstrumentsArray[3] = "double bass";
@@ -30,9 +30,9 @@ namespace CodeKatasTests.StringArrayMusical
         {
             const string vowels ="AEIOU";
 
-            foreach (var vowel in vowels)
+            foreach (var vowel in vowels.ToLower())
             {
-                if (word.Contains(vowel.ToString()))
+                if (word.Contains(vowel.ToString().ToLower()))
                 {
                     return true;
                 };
