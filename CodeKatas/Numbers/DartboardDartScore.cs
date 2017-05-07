@@ -9,7 +9,6 @@ namespace CodeKatas.Numbers
     public class DartboardDartScore
 
     {
-
         public int ThrowDart()
         {
             var random = new Random();
