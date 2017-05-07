@@ -8,7 +8,7 @@ namespace CodeKatas.Numbers
 {
     public class ConsecutiveNumbers
     {
-        public bool IsConsectiveNumbers(string numbers)
+        public ConsecutiveResult IsConsectiveNumbers(string numbers)
         {
             var numbersSplit = numbers.Split('-');
 
@@ -21,20 +21,28 @@ namespace CodeKatas.Numbers
                 {
                     if (thisNumber - nextNumber != -1)
                     {
-                        return false;
+                        return ConsecutiveResult.No;
                     }
                 }
                 else
                 {
-                    if (thisNumber - nextNumber != 1)
+                    if (thisNumber == nextNumber)
                     {
-                        return false;
+                        return ConsecutiveResult.ContainsPair;
                     }
+                    else
+                    {
+                         if (thisNumber - nextNumber != 1)
+                    {
+                        return ConsecutiveResult.No;
+                    }
+                    }
+                   
                 }
 
             }
 
-            return true;
+            return ConsecutiveResult.Yes;
         }
     }
 }

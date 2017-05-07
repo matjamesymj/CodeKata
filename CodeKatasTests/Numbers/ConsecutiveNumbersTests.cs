@@ -12,10 +12,8 @@ namespace CodeKatasTests.Numbers
         {
 
             var consecutiveNumbers = new ConsecutiveNumbers();
-            Assert.IsTrue(consecutiveNumbers.IsConsectiveNumbers("10-9-8-7-6"));
-            Assert.IsTrue(consecutiveNumbers.IsConsectiveNumbers("1-2-3-4-5"));
-
-
+            Assert.AreEqual(consecutiveNumbers.IsConsectiveNumbers("10-9-8-7-6"),ConsecutiveResult.Yes);
+            Assert.AreEqual(consecutiveNumbers.IsConsectiveNumbers("1-2-3-4-5"),ConsecutiveResult.Yes);
         }
 
         [TestMethod()]
@@ -23,10 +21,19 @@ namespace CodeKatasTests.Numbers
         {
 
             var consecutiveNumbers = new ConsecutiveNumbers();
-            Assert.IsFalse(consecutiveNumbers.IsConsectiveNumbers("10-9-7-6"));
-            Assert.IsFalse(consecutiveNumbers.IsConsectiveNumbers("1-2-2-3-4-5"));
+            Assert.AreEqual(consecutiveNumbers.IsConsectiveNumbers("10-9-7-6"),ConsecutiveResult.No);
+            Assert.AreEqual(consecutiveNumbers.IsConsectiveNumbers("1-2-4-5-6"), ConsecutiveResult.No);
+        }
 
+        [TestMethod()]
+        public void IsConsectiveNumbersReturnContainsPairTest()
+        {
+
+            var consecutiveNumbers = new ConsecutiveNumbers();
+            Assert.AreEqual(consecutiveNumbers.IsConsectiveNumbers("1-2-2-3-4-5"), ConsecutiveResult.ContainsPair);
 
         }
+
+
     }
 }

@@ -33,3 +33,6 @@ In Java they would be:
 String numbers = "10-9-8-7-6";
 
 String numbers = "1-2-3-4-5";
+
+Following on from the exercise above, work out if a series of 5 integers contain the same number. So the sequence 10-9-8-7-7 would yield the answer "Pair of numbers found".
+
