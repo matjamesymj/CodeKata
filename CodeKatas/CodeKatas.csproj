@@ -45,6 +45,8 @@
     <Compile Include="BinarySearchTree\Node.cs" />
     <Compile Include="BowlingGame\Game.cs" />
     <Compile Include="Factorial\FactorialCalcualator.cs" />
+    <Compile Include="Files\Car.cs" />
+    <Compile Include="Files\ReadCsv.cs" />
     <Compile Include="Numbers\ConsecutiveNumbers.cs" />
     <Compile Include="Numbers\ConsecutiveResult.cs" />
     <Compile Include="Numbers\DartboardDartScore.cs" />
@@ -64,7 +66,9 @@
     <Compile Include="UserInput\NumericInput.cs" />
     <Compile Include="UserInput\TextInput.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Files\test.csv" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="100Doors\_README.txt" />
     <Content Include="BinarySearchTree\_README.txt" />
